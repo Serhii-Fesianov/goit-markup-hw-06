@@ -5,13 +5,19 @@
   background-color: #ffffff;
 }
 
-:root{
+address{
+  font-style: normal;
+}
 
+:root{
+--primary-text-color: rgba(0,0,0,0);
+--title-text-color:#000000;
+--primary-white-color:#ffffff;
 }
 .link{
   text-decoration: none;
 }
-.link-wrapper {
+.header-link-wrapper {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 800;
@@ -22,12 +28,16 @@
   font-family: "Raleway", sans-serif;
 }
 
+.header-link-wrapper:hover{
+  color: #404bbf;
+}
+
 .logo {
   color: #2e2f42;
   text-transform: uppercase;
 }
 
-.studio-link {
+.studio{
   color: #2e2f42;
   font-size: 16px;
   font-family: Roboto;
@@ -35,21 +45,13 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
-  text-decoration: none;
 }
 
-.portfolio-link {
-  color: #2e2f42;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-  text-decoration: none;
+.studio:hover{
+  color: #404bbf;
 }
 
-.contacts-link {
+.portfolio{
   color: #2e2f42;
   font-size: 16px;
   font-family: Roboto;
@@ -57,7 +59,24 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
-  text-decoration: none;
+}
+
+.portfolio:hover{
+  color: #404bbf;
+}
+
+.contacts{
+  color: #2e2f42;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  word-wrap: break-word;
+}
+
+.contacts:hover{
+  color: #404bbf;
 }
 
 /* Contacts in Header */
@@ -69,7 +88,10 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
-  text-decoration: none;
+}
+
+.mail-style:hover{
+  color: #404bbf;
 }
 
 .number-style {
@@ -80,8 +102,12 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
-  text-decoration: none;
 }
+
+.number-style:hover{
+  color: #404bbf;
+}
+
 /* Hero Image */
 .hero-background {
   background-color: #2e2f42;
@@ -111,6 +137,7 @@
 body{
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 /* Advantage */
 .strategy-title {
@@ -414,3 +441,24 @@ body{
 /* ul benefits 3 */
 
 /* Footer */
+.footer-wrapper{
+  color: #4D5AE5;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+text-transform: uppercase;
+line-height: 21px;
+letter-spacing: 0.54px;
+word-wrap: break-word;
+}
+
+.logo-footer{
+  color: #F4F4FD;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+text-transform: uppercase;
+line-height: 21px;
+letter-spacing: 0.54px;
+word-wrap: break-word;
+}
