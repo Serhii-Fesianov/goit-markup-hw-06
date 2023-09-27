@@ -1,7 +1,4 @@
 /* Index.html */
-ul {
-  list-style: none;
-}
 
 /* header */
 .header-background {
@@ -330,6 +327,10 @@ ul {
 /* Contacts in Header */
 
 /* ul button */
+.list {
+  list-style: none;
+}
+
 .button-all {
   color: white;
   font-size: 16px;
@@ -390,11 +391,11 @@ ul {
   border: 0;
 }
 /* ul benefits 1  */
-.link-banling {
+.link-custom {
   text-decoration: none;
 }
 
-.title-banking {
+.title-list {
   color: #2e2f42;
   font-size: 20px;
   font-family: Roboto;
@@ -404,7 +405,7 @@ ul {
   word-wrap: break-word;
 }
 
-.text-banking {
+.text-paragraf {
   color: #434455;
   font-size: 16px;
   font-family: Roboto;
@@ -414,195 +415,8 @@ ul {
   word-wrap: break-word;
 }
 
-.link-payment {
-  text-decoration: none;
-}
-
-.title-payment {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.text-payment {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.link-mediation {
-  text-decoration: none;
-}
-
-.title-mediation {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.text-mediation {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
 /* ul benefits 2 */
-.link-taxi {
-  text-decoration: none;
-}
 
-.title-taxi {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.text-taxi {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.link-screen {
-  text-decoration: none;
-}
-
-.title-screen {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.text-screen {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.link-courses {
-  text-decoration: none;
-}
-
-.title-courses {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.text-courses {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
 /* ul benefits 3 */
-.link-stories {
-  text-decoration: none;
-}
 
-.title-stories {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.text-stories {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.link-organic {
-  text-decoration: none;
-}
-
-.title-organic {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.text-organic {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.link-coffee {
-  text-decoration: none;
-}
-
-.title-coffee {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.text-coffee {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
 /* Footer */
