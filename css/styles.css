@@ -5,20 +5,26 @@
   background-color: #ffffff;
 }
 
-.logo-wrapper {
-  color: #4d5ae5;
-  font-size: 18px;
-  font-family: Raleway;
-  font-weight: 800;
-  text-transform: uppercase;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  word-wrap: break-word;
+:root{
+
+}
+.link{
   text-decoration: none;
 }
+.link-wrapper {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  word-wrap: break-word;
+  font-family: "Raleway", sans-serif;
+}
 
-.logo-second-element {
+.logo {
   color: #2e2f42;
+  text-transform: uppercase;
 }
 
 .studio-link {
@@ -100,6 +106,11 @@
   letter-spacing: 0.64px;
   word-wrap: break-word;
   background: #4d5ae5;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 /* Advantage */
 .strategy-title {
@@ -292,21 +303,7 @@
   background-color: #2e2f42;
 }
 
-.logo-footer {
-  color: #4d5ae5;
-  font-size: 18px;
-  font-family: Raleway;
-  font-weight: 800;
-  text-transform: uppercase;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  word-wrap: break-word;
-  text-decoration: none;
-}
 
-.logo-footer-second {
-  color: #f4f4fd;
-}
 
 .footer-text {
   color: #f4f4fd;
@@ -391,9 +388,6 @@
   border: 0;
 }
 /* ul benefits 1  */
-.link-custom {
-  text-decoration: none;
-}
 
 .title-list {
   color: #2e2f42;
