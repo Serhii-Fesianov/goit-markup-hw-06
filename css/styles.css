@@ -152,6 +152,11 @@ body{
   text-align: center;
 }
 /* Team specialist */
+
+.custom-list{
+  background-color: #FFFFFF;
+}
+
 .team-background {
   background-color: #f4f4fd;
 }
