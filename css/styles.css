@@ -5,7 +5,7 @@
   background-color: #ffffff;
 }
 
-address{
+.address-style{
   font-style: normal;
 }
 
@@ -32,12 +32,16 @@ address{
   color: #404bbf;
 }
 
+.header-link-wrapper:focus{
+  color: #404bbf;
+}
+
 .logo {
   color: #2e2f42;
   text-transform: uppercase;
 }
 
-.studio{
+.navigation-style{
   color: #2e2f42;
   font-size: 16px;
   font-family: Roboto;
@@ -47,40 +51,16 @@ address{
   word-wrap: break-word;
 }
 
-.studio:hover{
+.navigation-style:hover{
   color: #404bbf;
 }
 
-.portfolio{
-  color: #2e2f42;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.portfolio:hover{
-  color: #404bbf;
-}
-
-.contacts{
-  color: #2e2f42;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.contacts:hover{
+.navigation-style:focus{
   color: #404bbf;
 }
 
 /* Contacts in Header */
-.mail-style {
+.contacts-style {
   color: #434455;
   font-size: 16px;
   font-family: Roboto;
@@ -90,21 +70,11 @@ address{
   word-wrap: break-word;
 }
 
-.mail-style:hover{
+.contacts-style:hover{
   color: #404bbf;
 }
 
-.number-style {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.number-style:hover{
+.contacts-style:focus{
   color: #404bbf;
 }
 
@@ -113,25 +83,35 @@ address{
   background-color: #2e2f42;
 }
 
-.text-hero {
+.title-hero {
   color: white;
   font-size: 56px;
   font-family: Roboto;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
   word-wrap: break-word;
+  text-align: center;
 }
 
 .style-button {
   color: white;
   font-size: 16px;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
   word-wrap: break-word;
   background: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.style-button:hover{
+  background-color: #404BBF;
+}
+
+.style-button:focus{
+  background-color: #404BBF;
 }
 
 body{
@@ -140,7 +120,7 @@ body{
   background-color: #ffffff;
 }
 /* Advantage */
-.strategy-title {
+.head-title {
   color: #2e2f42;
   font-size: 20px;
   font-family: Roboto;
@@ -150,67 +130,7 @@ body{
   word-wrap: break-word;
 }
 
-.text-strategy {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.punctuality-title {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.punctuality-text {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.diligence-title {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.diligence-text {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.technologies-title {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.technologies-text {
+.paragraf-style {
   color: #434455;
   font-size: 16px;
   font-family: Roboto;
@@ -226,9 +146,10 @@ body{
   font-family: Roboto;
   font-weight: 700;
   text-transform: capitalize;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   word-wrap: break-word;
+  text-align: center;
 }
 /* Team specialist */
 .team-background {
@@ -241,12 +162,13 @@ body{
   font-family: Roboto;
   font-weight: 700;
   text-transform: capitalize;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   word-wrap: break-word;
+  text-align: center;
 }
 
-.Mark-section {
+.name-specialist {
   color: #2e2f42;
   font-size: 20px;
   font-family: Roboto;
@@ -254,69 +176,10 @@ body{
   line-height: 24px;
   letter-spacing: 0.4px;
   word-wrap: break-word;
+  background-color: #FFFFFF;
 }
 
-.Mark-profesion {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.Tom-section {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.Tom-profesion {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.Camila-section {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.Camila-profesion {
-  color: #434455;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
-}
-
-.Daniel-section {
-  color: #2e2f42;
-  font-size: 20px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-  word-wrap: break-word;
-}
-
-.Daniel-profesion {
+.title-profession {
   color: #434455;
   font-size: 16px;
   font-family: Roboto;
@@ -355,19 +218,7 @@ body{
   list-style: none;
 }
 
-.button-all {
-  color: white;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-  word-wrap: break-word;
-  background-color: #404bbf;
-  border: 0;
-}
-
-.button-site {
+.button-custom {
   color: #4d5ae5;
   font-size: 16px;
   font-family: Roboto;
@@ -375,44 +226,18 @@ body{
   line-height: 24px;
   letter-spacing: 0.64px;
   word-wrap: break-word;
-  background-color: #f4f4fd;
+  background-color: #F4F4FD;
   border: 0;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
-.button-app {
-  color: #4d5ae5;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-  word-wrap: break-word;
-  background-color: #f4f4fd;
-  border: 0;
+.button-custom:hover{
+  color: #FFFFFF;
 }
 
-.button-design {
-  color: #4d5ae5;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-  word-wrap: break-word;
-  background-color: #f4f4fd;
-  border: 0;
-}
-
-.button-marketing {
-  color: #4d5ae5;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-  word-wrap: break-word;
-  background-color: #f4f4fd;
-  border: 0;
+.button-custom:focus{
+  color: #FFFFFF;
 }
 /* ul benefits 1  */
 
@@ -447,7 +272,7 @@ font-size: 18px;
 font-family: Raleway;
 font-weight: 800;
 text-transform: uppercase;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.54px;
 word-wrap: break-word;
 }
@@ -458,7 +283,7 @@ font-size: 18px;
 font-family: Raleway;
 font-weight: 800;
 text-transform: uppercase;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.54px;
 word-wrap: break-word;
 }
