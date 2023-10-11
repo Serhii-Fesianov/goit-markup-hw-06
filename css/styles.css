@@ -14,8 +14,7 @@ ul{
 
 .container { 
   max-width: 1158px;
-  padding-left: 15px; 
-  padding-right: 15; 
+  padding: 0 15px 0 15px; 
   margin-left: auto; 
   margin-right: auto; 
   }
@@ -26,25 +25,22 @@ ul{
   flex-direction: row;
 }
 
-.nav-list-margin{
-}
-
-.nav-list li{
+.nav-list{
   display: flex;
   flex-direction: row;
+  padding: 24px 0;
 }
 
 .header-flex{
   display:flex;
   flex-direction: row;
-}
-
-.header-margins{
-
+  align-items: center;
+  gap: 40px;
 }
 
 .header-background {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .address-style{
@@ -68,6 +64,7 @@ ul{
   letter-spacing: 0.54px;
   word-wrap: break-word;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 
 .header-link-wrapper:hover{
@@ -93,6 +90,9 @@ ul{
   word-wrap: break-word;
   display: flex;
   flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  padding: 24px 0;
 }
 
 .navigation-style:hover{
