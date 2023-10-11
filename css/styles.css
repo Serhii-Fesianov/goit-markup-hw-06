@@ -13,7 +13,7 @@ ul{
 }
 
 .container { 
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px 0 15px; 
   margin-left: auto; 
   margin-right: auto; 
@@ -23,6 +23,7 @@ ul{
 .additional-info-list-margin{
   display: flex;
   flex-direction: row;
+  gap: 40px;
 }
 
 .nav-list{
@@ -78,6 +79,7 @@ ul{
 .logo {
   color: #2e2f42;
   text-transform: uppercase;
+  margin-right: 40px;
 }
 
 .navigation-style{
@@ -125,6 +127,7 @@ ul{
 /* Hero Image */
 .hero-background {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .title-hero {
@@ -135,7 +138,7 @@ ul{
   line-height: 1.07;
   letter-spacing: 1.12px;
   word-wrap: break-word;
-  text-align: center;
+  max-width: 496px;
 }
 
 .style-button {
@@ -145,9 +148,14 @@ ul{
   line-height: 24px;
   letter-spacing: 0.64px;
   word-wrap: break-word;
-  background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
 }
 
 .style-button:hover{
