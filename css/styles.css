@@ -131,6 +131,10 @@ ul{
 
 .custom-first-section{
   padding: 188px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-hero {
@@ -155,6 +159,7 @@ ul{
   letter-spacing: 0.64px;
   word-wrap: break-word;
   font-family: "Roboto", sans-serif;
+  margin-top: 48px;
 }
 
 .style-button:hover{
@@ -181,6 +186,25 @@ body{
   background-color: #ffffff;
 }
 /* Advantage */
+
+.custom-ul-advantage{
+display: flex;
+flex-direction: row;
+gap: 24px;
+}
+
+.custom-li-advantage{
+  width: calc((100% - 72px) / 4);
+}
+
+.margins-h3-advantage{
+  margin-bottom: 8px;
+}
+
+.custom-second-section{
+  padding: 120px 0;
+}
+
 .head-title {
   color: #2e2f42;
   font-size: 20px;
@@ -201,6 +225,10 @@ body{
   word-wrap: break-word;
 }
 /* What we are doing */
+.custom-information-about-our-activity{
+  padding-bottom: 120px;
+}
+
 .our-work {
   color: #2e2f42;
   font-size: 36px;
@@ -211,8 +239,33 @@ body{
   letter-spacing: 0.72px;
   word-wrap: break-word;
   text-align: center;
+  margin-bottom: 72px;
+}
+
+.custom-ul-activity{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.custom-li-activity{
+  width: calc((100% - 48px) / 3);
 }
 /* Team specialist */
+.custom-section-specialist{
+  padding: 120px 0;
+}
+
+.custom-ul-specialist{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.style-width-li-specialist{
+width: ((100% - 72px)/4);
+border-radius: 0px 0px 4px 4px;
+}
 
 .custom-list{
   background-color: #FFFFFF;
@@ -220,6 +273,10 @@ body{
 
 .team-background {
   background-color: #f4f4fd;
+}
+
+.custom-block-specialist{
+  padding: 32px 0;
 }
 
 .team-title {
@@ -232,6 +289,7 @@ body{
   letter-spacing: 0.72px;
   word-wrap: break-word;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .name-specialists {
@@ -243,6 +301,8 @@ body{
   letter-spacing: 0.4px;
   word-wrap: break-word;
   background-color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .title-profession {
@@ -254,13 +314,13 @@ body{
   letter-spacing: 0.32px;
   word-wrap: break-word;
   background-color: #FFFFFF;
+  text-align: center;
 }
 /* Footer */
 .footer-background {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
-
-
 
 .footer-text {
   color: #f4f4fd;
@@ -270,6 +330,7 @@ body{
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
+  max-width: 264px;
 }
 /* portfolio.html */
 .visually-hidden {
@@ -355,6 +416,8 @@ line-height: 1.17;
 letter-spacing: 0.54px;
 word-wrap: break-word;
 font-family: "Raleway", sans-serif;
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .logo-footer{
