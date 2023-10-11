@@ -357,6 +357,11 @@ border-radius: 0px 0px 4px 4px;
   list-style: none;
 }
 
+.custom-section-button{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .button-custom {
   color: #4d5ae5;
   font-size: 16px;
@@ -374,13 +379,35 @@ border-radius: 0px 0px 4px 4px;
 .button-custom:hover{
   color: #FFFFFF;
   background-color: #404BBF;
+  border: 1px solid transparent;
 }
 
 .button-custom:focus{
   color: #FFFFFF;
   background-color: #404BBF;
+  border: 1px solid transparent;
+}
+
+.ul-custom-portfolio{
+display: flex;
+justify-content: center;
+gap: 24px;
+margin-bottom: 72px;
+}
+
+.button-place{
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 /* ul benefits 1  */
+
+.ul-images{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 
 .title-list {
   color: #2e2f42;
@@ -403,9 +430,16 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* ul benefits 2 */
-
+.custom-images-li{
+  width: calc((100% - 48px) / 3);
+}
 /* ul benefits 3 */
-
+.place-on-page-image{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 /* Footer */
 .footer-wrapper{
   color: #4D5AE5;
