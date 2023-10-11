@@ -15,8 +15,7 @@ ul{
 .container { 
   width: 1158px;
   padding: 0 15px 0 15px; 
-  margin-left: auto; 
-  margin-right: auto; 
+  margin: 0 auto;
   }
 
 /* header */
@@ -95,6 +94,7 @@ ul{
   display: flex;
   flex-direction: row;
   padding: 24px 0;
+  margin-right: 40px;
 }
 
 .navigation-style:hover{
@@ -127,6 +127,9 @@ ul{
 /* Hero Image */
 .hero-background {
   background-color: #2e2f42;
+}
+
+.custom-first-section{
   padding: 188px 0;
 }
 
@@ -138,6 +141,9 @@ ul{
   line-height: 1.07;
   letter-spacing: 1.12px;
   word-wrap: break-word;
+}
+
+.custom-title-hero{
   max-width: 496px;
 }
 
@@ -149,13 +155,6 @@ ul{
   letter-spacing: 0.64px;
   word-wrap: break-word;
   font-family: "Roboto", sans-serif;
-  cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  background-color: #4d5ae5;
-  border-radius: 4px;
 }
 
 .style-button:hover{
@@ -164,6 +163,16 @@ ul{
 
 .style-button:focus{
   background-color: #404BBF;
+}
+
+.custom-button-hero{
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
 }
 
 body{
