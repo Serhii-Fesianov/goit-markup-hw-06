@@ -127,10 +127,10 @@ ul{
 /* Hero Image */
 .hero-background {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .custom-first-section{
-  padding: 188px 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -197,7 +197,7 @@ gap: 24px;
   width: calc((100% - 72px) / 4);
 }
 
-.margins-h3-advantage{
+.custom-advantage-title{
   margin-bottom: 8px;
 }
 
@@ -262,8 +262,8 @@ gap: 24px;
   gap: 24px;
 }
 
-.style-width-li-specialist{
-width: ((100% - 72px)/4);
+.width-li-specialist{
+width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
 
