@@ -25,13 +25,6 @@ ul{
   gap: 40px;
 }
 
-.nav-list{
-  display: flex;
-  flex-direction: row;
-  padding: 24px 0;
-  gap: 40px;
-}
-
 .header-flex{
   display:flex;
   flex-direction: row;
@@ -45,6 +38,7 @@ ul{
 
 .address-style{
   font-style: normal;
+  margin-left: auto;
 }
 
 :root{
@@ -89,12 +83,8 @@ ul{
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
-  display: flex;
-  flex-direction: row;
-  display: flex;
-  flex-direction: row;
+  display: block;
   padding: 24px 0;
-  margin-right: 40px;
 }
 
 .navigation-style:hover{
@@ -184,6 +174,7 @@ body{
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin: 0;
 }
 /* Advantage */
 

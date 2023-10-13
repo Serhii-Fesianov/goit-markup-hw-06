@@ -11,22 +11,21 @@
       rel="stylesheet"
     />
     <link
-      rel="preconnect"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
-      <header class="header-background">
-        <div class="header-flex container"> 
+    <header class="header-background">
+      <div class="header-flex container">
         <nav class="header-flex">
           <a href="/" class="header-link-wrapper link">
             Web<span class="logo">Studio</span>
           </a>
 
-          <ul class="list nav-list">
+          <ul class="list additional-info-list-margin">
             <li>
               <a href="./index.html" class="navigation-style link">Studio</a>
             </li>
@@ -44,7 +43,7 @@
         </nav>
         <!-- Contacts in Header -->
         <address class="address-style">
-          <ul class="list nav-list additional-info-list-margin">
+          <ul class="list additional-info-list-margin">
             <li>
               <a href="mailto:info@devstudio.com" class="contacts-style link"
                 >info@devstudio.com</a
@@ -57,19 +56,23 @@
             </li>
           </ul>
         </address>
+      </div>
+    </header>
+    <!-- Hero Image -->
+    <main>
+      <section class="hero-background">
+        <div class="container custom-first-section">
+          <h1 class="title-hero custom-title-hero">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="style-button custom-button-hero">
+            Order Service
+          </button>
         </div>
-      </header>
-      <!-- Hero Image -->
-      <main> 
-        <section class="hero-background">
-          <div class="container custom-first-section">
-          <h1 class="title-hero custom-title-hero">Effective Solutions for Your Business</h1>
-          <button type="button" class="style-button custom-button-hero">Order Service</button>
-          </div>
-        </section>
+      </section>
 
-        <!-- Advantage -->
-        <section class="custom-second-section">
+      <!-- Advantage -->
+      <section class="custom-second-section">
         <div class="container">
           <h2 class="visually-hidden">Advantage</h2>
           <ul class="list custom-ul-advantage">
@@ -105,10 +108,10 @@
             </li>
           </ul>
         </div>
-        </section>
-        <!-- What we are doing -->
-        <section class="custom-information-about-our-activity">
-        <div class="container"> 
+      </section>
+      <!-- What we are doing -->
+      <section class="custom-information-about-our-activity">
+        <div class="container">
           <h2 class="our-work">What are we doing</h2>
           <ul class="list custom-ul-activity">
             <li class="custom-li-activity">
@@ -139,10 +142,10 @@
             </li>
           </ul>
         </div>
-        </section>
-        <!-- Team specialist -->
-        <section class="team-background custom-section-specialist">
-        <div class="container"> 
+      </section>
+      <!-- Team specialist -->
+      <section class="team-background custom-section-specialist">
+        <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="list custom-ul-specialist">
             <li class="custom-list width-li-specialist">
@@ -152,9 +155,9 @@
                 width="264"
                 height="260"
               />
-              <div class="custom-block-specialist"> 
-              <h3 class="name-specialists">Mark Guerrero</h3>
-              <p class="title-profession">Product Designer</p>
+              <div class="custom-block-specialist">
+                <h3 class="name-specialists">Mark Guerrero</h3>
+                <p class="title-profession">Product Designer</p>
               </div>
             </li>
             <li class="custom-list width-li-specialist">
@@ -164,9 +167,9 @@
                 width="264"
                 height="260"
               />
-              <div class="custom-block-specialist"> 
-              <h3 class="name-specialists">Tom Ford</h3>
-              <p class="title-profession">Frontend Developer</p>
+              <div class="custom-block-specialist">
+                <h3 class="name-specialists">Tom Ford</h3>
+                <p class="title-profession">Frontend Developer</p>
               </div>
             </li>
             <li class="custom-list width-li-specialist">
@@ -176,9 +179,9 @@
                 width="264"
                 height="260"
               />
-              <div class="custom-block-specialist"> 
-              <h3 class="name-specialists">Camila Garcia</h3>
-              <p class="title-profession">Marketing</p>
+              <div class="custom-block-specialist">
+                <h3 class="name-specialists">Camila Garcia</h3>
+                <p class="title-profession">Marketing</p>
               </div>
             </li>
             <li class="custom-list width-li-specialist">
@@ -188,17 +191,17 @@
                 width="264"
                 height="260"
               />
-              <div class="custom-block-specialist"> 
-              <h3 class="name-specialists">Daniel Wilson</h3>
-              <p class="title-profession">UI Designer</p>
+              <div class="custom-block-specialist">
+                <h3 class="name-specialists">Daniel Wilson</h3>
+                <p class="title-profession">UI Designer</p>
               </div>
             </li>
           </ul>
         </div>
-        </section>
-      </main>
-      <footer class="footer-background">
-      <div class="container"> 
+      </section>
+    </main>
+    <footer class="footer-background">
+      <div class="container">
         <a href="/" class="footer-wrapper link">
           Web<span class="logo-footer">Studio</span>
         </a>
@@ -207,6 +210,6 @@
           digital marketing & growth solutions.
         </p>
       </div>
-      </footer>
+    </footer>
   </body>
 </html>
