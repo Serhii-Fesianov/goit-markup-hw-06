@@ -184,7 +184,6 @@ ul{
   word-wrap: break-word;
   font-family: "Roboto", sans-serif;
   margin-top: 48px;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .style-button:hover{
@@ -203,6 +202,7 @@ ul{
   border: none;
   background-color: #4d5ae5;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body{
@@ -605,12 +605,15 @@ display: flex;
   color: #FFFFFF;
   background-color: #404BBF;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-custom:focus{
   color: #FFFFFF;
   background-color: #404BBF;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .ul-custom-portfolio{
@@ -628,6 +631,38 @@ margin-bottom: 72px;
 /* ul button */
 
 /* ul benefits */
+
+.text-inside{
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.image-ul-portfolio{
+  position: relative;
+  overflow: hidden;
+}
+
+.style-app{
+  display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.style-app:hover,
+.style-app:focus{
+  box-shadow: rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transform: translateY(0%);
+}
+
 .ul-images{
   display: flex;
   flex-wrap: wrap;
@@ -726,17 +761,6 @@ border-radius: 50%;
 background-color: #E7E9FC;
 }
 
-.modal-btn-icon:hover{
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
-}
-
-.modal-btn-icon:focus{
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
-}
 
 
 .modal-btn-icon{
@@ -746,8 +770,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-btn-icon:hover,
 .modal-btn-icon:focus{
+  border: none;
+  background-color: #404bbf;
   fill: #ffffff;
 }
+
 
 .is-hidden{
   opacity: 0;
