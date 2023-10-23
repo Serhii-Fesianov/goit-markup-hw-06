@@ -23,6 +23,7 @@ ul{
   }
 
 /* header */
+
 .additional-info-list-margin{
   display: flex;
   flex-direction: row;
@@ -89,15 +90,33 @@ ul{
   word-wrap: break-word;
   display: block;
   padding: 24px 0;
+  position: relative;
+  transition-property: color;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
 }
 
-.navigation-style:hover{
+.navigation-style:hover,
+.navigation-style:focus {
   color: #404bbf;
+}
+.navigation-style.current {
+  color: #404bbf;
+}
+.navigation-style.current::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+
+  display: block;
+  width: 100%;
+  height: 4px;
+
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
-.navigation-style:focus{
-  color: #404bbf;
-}
 
 /* Contacts in Header */
 .contacts-style {
@@ -209,9 +228,6 @@ gap: 24px;
   margin-bottom: 8px;
 }
 
-.custom-second-section{
-  padding: 120px 0;
-}
 
 .head-title {
   color: #2e2f42;
@@ -271,7 +287,7 @@ gap: 24px;
   background-color: #f4f4fd;
 }
 
-.custom-section-specialist{
+.section-padding{
   padding: 120px 0;
 }
 
@@ -373,17 +389,39 @@ fill:#F4F4FD;
 /* /Team specialist */
 
 /* Customers section */
+
+.customers-link{
+  border: 1px solid #8E8F99;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.customers-link:hover, 
+.customers-link:focus{
+  border: 1px solid #404BBF;
+}
+
+.customers-link:hover .svg-customers-section,
+.customers-link:focus .svg-customers-section{
+ fill: #404BBF;
+}
+
+.customers-items{
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
 .svg-customers-section{
 fill: #8E8F99;
 }
 
-.svg-customers-section:hover{
-fill: #404BBF;
-}
-
-
 .ul-costomers-section{
 display: flex;
+align-items: center;
 justify-content: center;
 gap: 24px;
 }
@@ -391,7 +429,7 @@ gap: 24px;
 .customers-h2{
 display: flex;
 justify-content: center;
-padding-bottom: 72px;
+margin-bottom: 72px;
 color: #2E2F42;
 font-size: 36px;
 font-family: Roboto;
@@ -602,3 +640,60 @@ margin-bottom: 72px;
 /* /ul benefits */
 
 /* /portfolio.html */
+
+
+/* Modal Windov */
+.backdrop{
+  position: fixed;
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.20);
+}
+
+.modal{
+  width: 408px;
+  min-height: 584px;
+  background-color: #FCFCFC;
+  border-radius: 4px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) scale(1);
+  opacity: 1;
+  transition: transform 400ms ease-in, opacity 400ms ease-in;
+  transition-delay: 400ms;
+}
+
+
+.modal-button{
+
+position: absolute;
+top: 24px;
+right: 24px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+padding: 0;
+
+width: 24px;
+height: 24px;
+
+border-radius: 50%;
+background-color: #E7E9FC;
+border: none;
+}
+
+
+.modal-button-icon{
+stroke: #2E2F42;
+}
+
+/* /Modal Windov */
