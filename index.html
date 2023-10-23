@@ -66,11 +66,11 @@
     <!-- Hero Image -->
     <main>
       <section class="hero-background">
-        <div class="container custom-first-section">
+        <div class="wrapper-hero"> 
           <h1 class="title-hero custom-title-hero">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="style-button custom-button-hero">
+          <button type="button" data-modal-open="true" class="style-button custom-button-hero">
             Order Service
           </button>
         </div>
@@ -466,10 +466,12 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button
-          class="modal-button"
+          class="modal-btn"
           type="button"
-          aria-label = "data-modal-open data-modal-close">
-          <svg class="modal-button-icon" width="8" height="8">
+          aria-label="Modal close button"
+          data-modal-close
+        >
+          <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-Button-close"></use>
           </svg>
         </button>
