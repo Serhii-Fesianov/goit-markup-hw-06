@@ -149,8 +149,8 @@ ul{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 1440px;
   max-width: 100%;
+  max-width: 1440px;
 }
 
 .wrapper-hero{
