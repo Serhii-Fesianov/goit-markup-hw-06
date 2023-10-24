@@ -149,7 +149,7 @@ ul{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 188px 0;
+  max-width: 1440px;
   max-width: 100%;
 }
 
@@ -158,6 +158,7 @@ ul{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 188px 0;
 }
 
 
@@ -538,12 +539,13 @@ margin-top: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons-link:hover{
-  background-color: #31D0AA;
+.footer-icons-link:hover,
+.footer-icons-link:focus{
+ background-color: #31D0AA;
 }
 
-.footer-icons-link:focus{
-background-color: #31D0AA;
+.svg.footer:hover{
+  background-color: #31D0AA;
 }
 
 .footer-flex{
@@ -557,10 +559,6 @@ display: flex;
 
 .svg-footer{
   fill:#F4F4FD;
-}
-
-.svg.footer:hover{
-  background-color: #31D0AA;
 }
 
 /* /Footer */
@@ -658,6 +656,7 @@ margin-bottom: 72px;
   box-shadow: rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0%);
 }
 
 .wrapper-ul-portfolio{
@@ -674,11 +673,11 @@ margin-bottom: 72px;
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
+  transform: translateY(100%);
 
   position: absolute;
   bottom: 0;
   left: 0;
-  transform: translateY(100%);
 }
 
 
@@ -778,11 +777,10 @@ stroke: #2E2F42;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-icon:hover,
-.modal-btn-icon:focus{
-  border: none;
-  background-color: #404bbf;
+.modal-btn:hover,
+.modal-btn:focus{
   fill: #ffffff;
+  background-color: #404bbf;
 }
 
 .modal-btn:hover .modal-btn-icon 
@@ -790,7 +788,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #ffffff;
   background-color: #404bbf;
 }
-
 
 .is-hidden{
   opacity: 0;
