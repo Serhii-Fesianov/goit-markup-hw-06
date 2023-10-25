@@ -730,6 +730,8 @@ margin-bottom: 72px;
 
 
 /* Modal Windov */
+
+/* Windov and clossed btn */
 .backdrop{
   position: fixed;
   top:0;
@@ -807,6 +809,138 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: hidden;
   pointer-events: none; 
 }
+/* /Windov and clossed btn */
 
+/* style strong */
+.custom-strong{ 
+display: flex;
+justify-content: center;
+align-items: center;
+width: 360px;
+margin: 72px 24px 16px 24px;
+
+color: #2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.32px;
+word-wrap: break-word;
+}
+/* /style strong */
+
+/* Custom form for input */
+
+.modal-form{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper{
+margin-bottom: 8px;
+}
+
+.form-label{
+  display: block;
+  margin-bottom: 4px;
+
+  color: #8E8F99;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+}
+
+.input-wrapper{
+position: relative;
+}
+
+.form-input{
+  width: 360px; 
+  height: 40px;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  border-radius: 4px; 
+  border: 1px solid rgba(46, 47, 66, 0.40); 
+
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.03);
+  outline: transparent;
+}
+/* /Custom form for input */
+
+/* icons form */
+.form-icon{
+  top: 50%;
+  left: 16px;  
+  position: absolute; 
+  fill: #2E2F42;
+}
+/* /icons form */
+
+
+
+/* Textarea */
+.form-comment {
+  width: 360px;
+  height: 120px;
+  padding: 22px 24px;
+
+  font-size: 16px;
+  letter-spacing: -0.02em;
+
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.40);
+  outline: transparent;
+  resize: none;
+  transition: border var(--fast-trns), box-shadow var(--fast-trns);
+}
+.form-comment::placeholder {
+  color: rgba(64, 64, 64, 0.3);
+}
+
+/* /Textarea */
+
+/* Checkbox */
+
+.form-agreement{
+  display: flex;
+  align-items: center;
+}
+
+.visually-hidden-checkbox{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.custom-checkbox{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.custom-checkbox-icon{
+
+}
+
+.form-agreement-link{
+  color: #4D5AE5;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+/* /Checkbox */
 
 /* /Modal Windov */
