@@ -833,8 +833,8 @@ word-wrap: break-word;
 .modal-form{
   flex-wrap: wrap;
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding: 0 24px;
 }
 
 .form-wrapper{
@@ -854,37 +854,44 @@ margin-bottom: 8px;
 position: relative;
 }
 
+.form-icon{
+  top: 8px;
+  left: 16px;  
+  position: absolute; 
+  fill: #2E2F42;
+}
+
 .form-input{
   width: 360px; 
   height: 40px;
+  padding-left: 38px;
 
   font-size: 16px;
   line-height: 1.5;
 
   border-radius: 4px; 
-  border: 1px solid rgba(46, 47, 66, 0.40); 
-
+  border: 1px solid rgba(46, 47, 66, 0.40);
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.03);
-  outline: transparent;
 }
+
+
+.form-input:focus{
+ outline: none; 
+ border: 1px solid #4D5AE5;
+}
+
 /* /Custom form for input */
 
-/* icons form */
-.form-icon{
-  top: 50%;
-  left: 16px;  
-  position: absolute; 
-  fill: #2E2F42;
-}
-/* /icons form */
-
-
-
 /* Textarea */
+
+.form-wrapper-comment{
+  margin-bottom: 16px;
+}
+
 .form-comment {
   width: 360px;
   height: 120px;
-  padding: 22px 24px;
+  padding: 22px 24px 0 24px;
 
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -893,19 +900,25 @@ position: relative;
   border: 1px solid rgba(46, 47, 66, 0.40);
   outline: transparent;
   resize: none;
-  transition: border var(--fast-trns), box-shadow var(--fast-trns);
 }
-.form-comment::placeholder {
-  color: rgba(64, 64, 64, 0.3);
+
+.form-comment:focus{
+  outline: none; 
+  border: 1px solid #4D5AE5;
 }
 
 /* /Textarea */
 
 /* Checkbox */
 
+.confirmation{
+  font-size: 12px;
+}
+
 .form-agreement{
   display: flex;
   align-items: center;
+  justify-content: start;
 }
 
 .visually-hidden-checkbox{
@@ -916,9 +929,6 @@ position: relative;
   overflow: hidden;
   border: 0;
   padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
 
 .custom-checkbox{
@@ -928,11 +938,14 @@ position: relative;
 
   width: 20px;
   height: 20px;
-  margin-right: 12px;
+  margin-right: 8px;
+  position: relative; 
+  border-radius: 2px; 
+  border: 1px solid rgba(46, 47, 66, 0.40);
 }
 
 .custom-checkbox-icon{
-
+fill: transparent;
 }
 
 .form-agreement-link{
