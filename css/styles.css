@@ -888,9 +888,6 @@ position: relative;
   fill: #4d5ae5;
   color: #4D5AE5;
 }
-
-
-
 /* /Custom form for input */
 
 /* Textarea */
@@ -959,6 +956,24 @@ position: relative;
 fill: transparent;
 }
 
+.custom-checkbox:focus,
+.custom-checkbox:active{
+  background-color: #404BBF; 
+  border-radius: 2px;
+  border: 1px #404BBF solid;
+  stroke: #F4F4FD;
+  fill: #F4F4FD;
+}
+
+.custom-checkbox:focus .custom-checkbox-icon,
+.custom-checkbox:active .custom-checkbox-icon{
+  stroke: #F4F4FD;
+  fill: #F4F4FD;
+}
+
+
+
+
 .form-agreement-link{
   color: #4D5AE5;
   font-size: 12px;
@@ -966,5 +981,38 @@ fill: transparent;
   text-decoration: underline;
 }
 /* /Checkbox */
+
+/* Modal button */
+.modal-button-send{
+cursor: pointer;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
+background-color: #4d5ae5;
+border-radius: 4px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.style-modal-button{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  word-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  margin-top: 24px;
+  margin-left: 94px;
+  margin-right: 95px;
+  margin-bottom: 24px;
+  padding: 16px 32px;
+}
+
+.style-modal-button:hover,
+.style-modal-button:focus{
+  background-color: #404BBF;
+}
+/* /Modal Button */
 
 /* /Modal Windov */
