@@ -1035,6 +1035,7 @@ position: relative;
 .visually-hidden:checked + .information-privacy-policy .custom-checkbox{
   background-color: #404BBF;
   border: none;
+  fill: #F4F4FD;
 }
 
 .visually-hidden:checked + .information-privacy-policy .custom-checkbox .custom-checkbox-icon{
