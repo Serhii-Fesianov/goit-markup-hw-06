@@ -513,7 +513,7 @@ word-wrap: break-word;
 }
 
 .social-media-wrapper{
-  margin-right: 80px;
+  
 }
 
 .title-social-link{
@@ -584,11 +584,12 @@ display: flex;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+  padding-left: 22px;
   margin-bottom: 16px;
 }
 
-.style-label-subscribe{
-
+.wrapper-subscribe{
+  margin-left: 80px;
 }
 
 .input-email-subscribe{
