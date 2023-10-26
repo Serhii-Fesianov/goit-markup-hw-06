@@ -512,6 +512,10 @@ letter-spacing: 0.54px;
 word-wrap: break-word;
 }
 
+.social-media-wrapper{
+  margin-right: 80px;
+}
+
 .title-social-link{
 color: #FFFFFF;
 font-size: 16px;
@@ -566,6 +570,73 @@ display: flex;
 
 .svg-footer{
   fill:#F4F4FD;
+}
+
+
+.subscribe-wrapper{
+
+}
+
+.form-subscribe-style{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-info-style{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.input-email-subscribe{
+width: 264px;
+height: 40px;
+padding-top: 8px;
+padding-left: 16px;
+padding-bottom: 8px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-email-subscribe:focus,
+.input-email-subscribe:active{
+  outline: none; 
+  border: 1px solid #4D5AE5;
+}
+
+.button-footer-submit{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+width: 165px;
+height: 40px;
+margin-left: 24px;
+padding: 8px 24px;
+background-color: #4D5AE5;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.style-button-submit{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.button-footer-submit:hover,
+.button-footer-submit:focus{
+  background-color: #404BBF;
+}
+
+.svg-subsribe-style{
+fill: #FFFFFF;
 }
 
 /* /Footer */
@@ -859,6 +930,7 @@ position: relative;
   left: 16px;  
   position: absolute; 
   fill: #2E2F42;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input{
@@ -872,6 +944,7 @@ position: relative;
   border-radius: 4px; 
   border: 1px solid rgba(46, 47, 66, 0.40);
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.03);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -899,7 +972,8 @@ position: relative;
 .form-comment {
   width: 360px;
   height: 120px;
-  padding: 22px 24px 0 24px;
+  padding-top: 8px;
+  padding-left: 16px;
 
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -908,6 +982,7 @@ position: relative;
   border: 1px solid rgba(46, 47, 66, 0.40);
   outline: transparent;
   resize: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-comment:focus{
@@ -950,6 +1025,7 @@ position: relative;
   position: relative; 
   border-radius: 2px; 
   border: 1px solid rgba(46, 47, 66, 0.40);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .custom-checkbox-icon{
@@ -970,9 +1046,6 @@ fill: transparent;
   stroke: #F4F4FD;
   fill: #F4F4FD;
 }
-
-
-
 
 .form-agreement-link{
   color: #4D5AE5;
