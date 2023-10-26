@@ -897,7 +897,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .custom-strong{ 
 display: flex;
 justify-content: center;
-align-items: center;
+text-align: center;
 width: 360px;
 
 color: #2E2F42;
@@ -984,7 +984,7 @@ position: relative;
   font-size: 12px;
   line-height: 1.17;
 
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 0.04em;
 
   border-radius: 4px;
@@ -1005,7 +1005,7 @@ position: relative;
 
 /* Checkbox */
  .information-privacy-policy{
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: start;
   font-size: 12px;
@@ -1016,13 +1016,14 @@ position: relative;
 
 .confirmation{
   font-size: 12px;
+  display: inline-flex;
 }
 
 .form-agreement{
   margin-bottom: 24px;
 }
 
-.visually-hidden-checkbox{
+.visually-hidden-checkbox {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -1051,13 +1052,6 @@ position: relative;
 fill: transparent;
 }
 
-.visually-hidden-checkbox:checked .custom-checkbox-icon{
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
-}
-
-
 .custom-checkbox:focus,
 .custom-checkbox:active{
   background-color: #404BBF; 
@@ -1067,11 +1061,12 @@ fill: transparent;
   fill: #F4F4FD;
 }
 
-.custom-checkbox:focus .custom-checkbox-icon,
-.custom-checkbox:active .custom-checkbox-icon{
-  stroke: #F4F4FD;
+.visually-hidden-checkbox:checked + .custom-checkbox-icon{
+  background-color: #404bbf;
+  border: none;
   fill: #F4F4FD;
 }
+
 
 .form-agreement-link{
   color: #4D5AE5;
