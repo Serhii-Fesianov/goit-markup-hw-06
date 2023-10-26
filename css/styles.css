@@ -1038,9 +1038,7 @@ position: relative;
   fill: #F4F4FD;
 }
 
-.visually-hidden:checked + .information-privacy-policy .custom-checkbox .custom-checkbox-icon{
-  fill: #F4F4FD;
-}
+
 
 .custom-checkbox{
   display: inline-flex;
@@ -1057,9 +1055,6 @@ position: relative;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.custom-checkbox-icon{
-fill: transparent;
-}
 
 
 
