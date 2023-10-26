@@ -459,11 +459,12 @@
           </ul>
         </div>
 
-        <div class="subscribe-wrapper">
+        <div class="">
           <p class="subscribe-info-style">Subscribe</p>
          <form class="form-subscribe-style">
+          <label class="style-label-subscribe" for="user-name"></label>
          <input class="input-email-subscribe"
-          type="text"
+          type="email"
           name="user-email"
           id="user-email"
           required
@@ -497,11 +498,11 @@
           </svg>
         </button>
 
-        <strong class="custom-strong">
+        <p class="custom-strong">
           Leave your contacts and we will call you back
-        </strong>
+        </p>
 
-        <form class="modal-form" name="reviews-form" autocomplete="off">
+        <form name="reviews-form" autocomplete="off">
           <div class="form-wrapper">
             <label class="form-label" for="user-name">Name</label>
             <div class="input-wrapper">
@@ -520,7 +521,7 @@
           </div>
 
             <div class="form-wrapper">
-            <label class="form-label" for="user-name">Number</label>
+            <label class="form-label" for="user-name">Phone</label>
             <div class="input-wrapper">
               <input
                 class="form-input"
@@ -567,24 +568,26 @@
               minlength="7"
             ></textarea>
           </div>
-
-          <label class="form-agreement">
+          
+          <div class="form-agreement">
             <input
               class="visually-hidden-checkbox"
+              id="user-privacy"
               type="checkbox"
-              name="user_agreement"
+              value="true"
+              name="user-privacy"
               checked
             />
+            <label class="information-privacy-policy" for="user-privacy">
             <span class="custom-checkbox">
-              <svg class="custom-checkbox-icon" width="10" height="10">
+              <svg class="custom-checkbox-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-Vector"></use>
               </svg>
             </span>
-            <p class="confirmation">I accept the terms and conditions of the
-              <a class="form-agreement-link" href="">Privacy Policy</a>
-            </p>
+            <p class="confirmation">I accept the terms and conditions of the</p>
+            <a class="form-agreement-link" href="">Privacy Policy</a>
           </label>
-
+          </div>
           <button type="button" class="modal-button-send style-modal-button">Send</button>
 
     <!-- AOS scripts -->
