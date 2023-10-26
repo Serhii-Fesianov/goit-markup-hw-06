@@ -1051,21 +1051,14 @@ position: relative;
 fill: transparent;
 }
 
-.custom-checkbox:focus,
-.custom-checkbox:active{
-  background-color: #404BBF; 
-  border-radius: 2px;
-  border: 1px #404BBF solid;
-  stroke: #F4F4FD;
-  fill: #F4F4FD;
-}
-
-.visually-hidden-checkbox:checked + .custom-checkbox-icon{
-  background-color: #404bbf;
+.visually-hidden-checkbox:checked + .custom-checkbox{
+  background-color: #404BBF;
   border: none;
-  fill: #F4F4FD;
 }
 
+.visually-hidden-checkbox:checked + .custom-checkbox .custom-checkbox-icon{
+  fill: #F4F4FD;
+}
 
 .form-agreement-link{
   color: #4D5AE5;
