@@ -875,10 +875,21 @@ position: relative;
 }
 
 
-.form-input:focus{
+.form-input:focus,
+.form-input:active{
  outline: none; 
- border: 1px solid #4D5AE5;
+ border: 1px #4D5AE5 solid;
 }
+
+
+.form-input:focus + .form-icon,
+.form-icon:active + .form-icon{
+  outline: none;
+  fill: #4d5ae5;
+  color: #4D5AE5;
+}
+
+
 
 /* /Custom form for input */
 
