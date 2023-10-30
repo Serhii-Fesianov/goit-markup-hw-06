@@ -5,6 +5,7 @@ main,
 footer {
   max-width: 428px;
   width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -15,7 +16,6 @@ footer {
   main,
   footer {
     max-width: 768px;
-    width: 100%;
   }
 }
 
@@ -24,7 +24,6 @@ footer {
   main,
   footer {
     max-width: 1440px;
-    width: 100%;
   }
 }
 
@@ -259,7 +258,7 @@ ul {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  max-height: 432px;
+  max-height: 100%;
   margin: 0 auto;
 }
 @media only screen and (max-width: 767px) {
@@ -269,7 +268,6 @@ ul {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/Heromobile@2x.jpg");
-    max-height: 436px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -298,7 +296,8 @@ ul {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/Herodesctop@1x.jpg");
-    max-height: 600px;
+
+    padding: 188px 0;
   }
 }
 @media only screen and (min-width: 1158px) and (min-device-pixel-ratio: 2),
@@ -776,7 +775,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .footer-wrapper{
+  .footer-wrapper {
     justify-content: start;
   }
 }
@@ -857,12 +856,12 @@ body {
 
 @media only screen and (min-width: 768px) {
   .footer-flex {
-  flex-direction: row;
-  justify-content: start;
-  flex-wrap: wrap;
-  gap: 72px 24px;
-  padding-left: 108px;
-  align-items: normal;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    padding-left: 108px;
+    align-items: normal;
   }
 }
 
@@ -872,7 +871,7 @@ body {
     flex-wrap: nowrap;
     gap: 80px;
     padding: 0;
-    }
+  }
 }
 
 .svg-footer {
@@ -936,7 +935,6 @@ body {
     width: 264px;
   }
 }
-
 
 .button-footer-submit {
   display: flex;
