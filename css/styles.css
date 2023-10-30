@@ -983,6 +983,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .style-button-submit {
+    margin: 0 auto;
+  }
+}
+
 .button-footer-submit:hover,
 .button-footer-submit:focus {
   background-color: #404bbf;
